@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+.cardTitle {
+    font-size: 2rem;
+    padding: 0.1rem;
+}
+
+.mainCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainCardDynamic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.FreeCard {
+    order: 1;
+    width: 33.33%;
+    height: 400px;
+    width: 350px;
+    padding: 1rem;
+    background: linear-gradient(to top right, rgba(255, 0, 0, 0), #FFF1);
+    color: black;
+    margin: 50px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.FreeCard:hover {
+    order: 1;
+    width: 33.33%;
+    height: 400px;
+    width: 350px;
+    padding: 1rem;
+    background: linear-gradient(to top right, #8072fb, Pink);
+    margin: 50px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    color: white !important;
+    font-size: 18px;
+    box-shadow: 0 30px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Monthly {
+    width: 33.33%;
+    padding: 1rem;
+    height: 400px;
+    width: 350px;
+    margin: 50px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    color: black;
+    background-color: linear-gradient(to top right, rgba(255, 0, 0, 0), #FFF1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Monthly:hover {
+    width: 33.33%;
+    padding: 1rem;
+    height: 400px;
+    width: 350px;
+    margin: 50px;
+    color: white !important;
+    font-size: 18px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    background: linear-gradient(to top right, #8072fb, Pink);
+    box-shadow: 0 30px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Yearly {
+    width: 33.33%;
+    height: 400px;
+    width: 350px;
+    padding: 1rem;
+    margin: 50px;
+    color: black;
+    /* margin-left: 0px !important;
+    margin-right: 0px !important; */
+    background-color: linear-gradient(to top right, rgba(255, 0, 0, 0), #FFF1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Yearly:hover {
+    width: 33.33%;
+    height: 400px;
+    width: 350px;
+    padding: 1rem;
+    margin: 50px;
+    /* margin-left: 0px !important;
+    margin-right: 0px !important; */
+    background: linear-gradient(to top right, #8072fb, Pink);
+    box-shadow: 0 30px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+    color: white !important;
+    font-size: 18px;
+}
+
+.upgradebutton1 {
+    text-transform: capitalize;
+    text-decoration: bold;
+    background-color: rgb(196, 151, 238);
+    border: 1px white solid;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    color: white !important;
+    font-size: 20px;
+}
+
+.upgradebutton2 {
+    text-transform: capitalize;
+    text-decoration: bold;
+    background-color: none;
+    border: 1px white solid;
+    border-radius: 3rem;
+    padding: 1rem;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    color: rgb(42, 160, 238);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.upgradebutton3 {
+    text-transform: capitalize;
+    text-decoration: bold;
+    background-color: rgb(196, 151, 238);
+    border: 1px white solid;
+    border-radius: 3rem;
+    padding: 1rem;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    color: white !important;
+    font-size: 20px;
+}
+
+.Upgrade-Dynamic-button {
+    color: white !important;
+
+}
+
+.upgradebutton1:hover {
+    background-image: "linear-gradient(to top right, #8072fb, Pink)" !important;
+}
+
+.cardContent {
+    color: "black";
+    margin-top: 45px;
+}
+
+/* style= {
+        {}
+}
+
+style= {
+        {
+        fontSize: "50px"
+    }
+}
+
+style= {
+        {
+        fontSize: "25px", textDecoration: "bold", marginTop: "45px"
+    }
+} */

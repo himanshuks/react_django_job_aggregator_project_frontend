@@ -1,0 +1,92 @@
+.Footer {
+    bottom: 0px;
+    /* background-color: red; */
+    padding: 1%;
+}
+
+.Footerpart {
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* Social Icons */
+#lab_social_icon_footer {
+    margin-left: -600px !important;
+}
+
+#lab_social_icon_footer a {
+    color: #333;
+}
+
+#lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+    color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+    color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+    color: #f39c12;
+}
+
+.footer-copyright {
+    padding: 3%;
+    padding-left: 0% !important;
+    font-family: "AvenirNext-Regular" !important;
+}
+
+.white-text1 {
+    margin-left: 13%;
+    font-size: 18px;
+    color: #505050;
+    font-family: "AvenirNext-Regular" !important;
+}
+
+.white-text {
+    font-size: 18px;
+    color: #505050;
+    font-family: "AvenirNext-Regular" !important;
+}
+
+.page-footer {
+    margin-top: auto;
+    padding-top: 3%;
+    background-color: #F5F5F5;
+    font-size: 14px !important;
+    font-family: "AvenirNext-Regular" !important;
+}

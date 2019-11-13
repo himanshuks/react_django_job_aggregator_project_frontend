@@ -1,0 +1,217 @@
+.mainblock {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px !important;
+}
+
+/* Contracts */
+
+.block1 {
+    order: 1;
+    /* padding-top: 1rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-right: 1px solid lightgray;
+    margin-top: none;
+    /* border-top: 1px solid grey; */
+}
+
+.block2 {
+    order: 2;
+    /* padding-top: 1rem; */
+    /* padding-left: 3rem; */
+    width: 100%;
+}
+
+.location123 {
+    height: 50px;
+    width: 200px;
+}
+
+.mainsaved {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1rem;
+}
+
+.saved1 {
+    order: 1;
+    width: 20%;
+    padding: 1rem;
+}
+
+.saved2 {
+    order: 2;
+    width: 60%;
+}
+
+.saved3 {
+    order: 3;
+    width: 20%;
+    padding-right: 1%;
+}
+
+.contact-block {
+    display: flex;
+    flex-direction: row;
+    border: 0.1px solid rgb(230, 228, 228);
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.contact-block:hover {
+    display: flex;
+    flex-direction: row;
+    border: 0.1px solid rgb(230, 228, 228);
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.website-logo {
+    order: 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-self: center;
+}
+
+.website-details {
+    order: 2;
+    text-align: justify;
+    /* margin-top: 10px; */
+    width: 100%;
+    opacity: 0.5;
+    font-family: "AvenirNext-Medium";
+    font-size: 13px;
+    color: #2d3242;
+
+    margin-left: 3px;
+}
+
+.Job_Title {
+    font-family: "AvenirNext-Regular" !important;
+    font-size: 18px !important;
+    color: rgb(51, 50, 50) !important;
+    text-transform: capitalize !important;
+    font-style: normal !important;
+}
+
+.Job_Title:hover {
+    font-family: "AvenirNext-Regular" !important;
+    font-size: 18px !important;
+    color: #000000 !important;
+    text-transform: capitalize !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+}
+
+.saved-items {
+    order: 3;
+    padding: 3rem;
+    /* margin-top: 5px; */
+    /* font-size: 20px !important; */
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.Pagination {
+    text-align: center;
+    font-size: 30%;
+}
+
+.Pagination1 {
+    font-size: 150%;
+}
+
+/* Tenders */
+.Job_TitleTenders {
+    opacity: 0.7 !important;
+    font-family: "AvenirNext-Regular" !important;
+    font-size: 18px !important;
+    color: grey !important;
+    /* margin-left: 3px; */
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+}
+
+.Job_TitleTenders:hover {
+    opacity: 0.5 !important;
+    font-family: "AvenirNext-Regular" !important;
+    font-size: 18px !important;
+    color: #000000 !important;
+    /* margin-left: 3px; */
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+}
+
+.website-detailsTenders {
+    order: 2;
+    text-align: justify;
+    /* margin-top: 10px; */
+    width: 100%;
+    /* opacity: 1; */
+    font-family: "AvenirNext-Medium";
+    font-size: 13px;
+    color: #0c0d11e7;
+
+    margin-left: 3px;
+}
+
+.saved-itemsTenders {
+    order: 3;
+    padding: 1rem 3rem;
+    /* margin-top: 5px; */
+    /* font-size: 20px !important; */
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.contact-blockTenders {
+    display: flex;
+    flex-direction: row;
+    border: 0.1px solid rgb(230, 228, 228);
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.contact-blockTenders:hover {
+    display: flex;
+    flex-direction: row;
+    border: 0.1px solid rgb(230, 228, 228);
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px #888888;
+
+}
+
+/* Social */
+
+.website-detailsSocial {
+    order: 2;
+    text-align: justify;
+    /* margin-top: 10px; */
+    width: 100%;
+    /* opacity: 0.5; */
+    font-family: "AvenirNext-Medium";
+    font-size: 13px;
+    color: #2d3242;
+
+    margin-left: 3px;
+}
+
+.Social_main {
+    display: flex;
+    flex-direction: row;
+}
+
+.Social_Page {
+    display: flex;
+    flex-direction: row;
+}

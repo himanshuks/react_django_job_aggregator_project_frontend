@@ -1,0 +1,200 @@
+/* Login and signUp CSS codes */
+
+.facebook {
+    font-family: "AvenirNext-Regular";
+    background-color: rgb(59, 88, 155);
+    border: none;
+    width: auto;
+    padding: 2%;
+    margin: 0rem;
+    font-size: 17px;
+}
+
+
+.google {
+    font-family: "AvenirNext-Regular";
+    background-color: rgb(208, 68, 50);
+    border: none;
+    width: auto;
+    padding: 2%;
+    margin: 0rem;
+    font-size: 17px;
+}
+
+.linkedin {
+    font-family: "AvenirNext-Regular";
+    background-color: rgb(2, 123, 182);
+    border: none;
+    width: auto;
+    padding: 2%;
+    margin: 0rem;
+    font-size: 17px;
+}
+
+/* body {
+
+  background-color: rgb(236, 234, 234);
+  /* color: white; 
+  margin: 3%;
+  text-shadow: 2px 2px 8px rgb(85, 72, 72);
+  color: white;
+  font-family: "AvenirNext-Regular";
+} */
+
+.forgotpassword {
+    text-align-last: right;
+    color: white !important;
+    font-family: "AvenirNext-Regular";
+}
+
+.forgotpassword>a {
+    font-size: 14px !important;
+    color: white !important;
+}
+
+.registerlink {
+    font-size: 14px !important;
+    color: white !important;
+    font-family: "AvenirNext-Regular";
+}
+
+.formLabel {
+    font-size: 16px;
+}
+
+.container-fluidmain {
+    padding-top: 5%;
+}
+
+.loginmain {
+    margin-top: 10%;
+}
+
+
+.container-fluid1 {
+    /* height: 100vh; */
+    /* background-color: #d8dce4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5% !important; */
+    margin-bottom: 5% !important;
+    margin-left: 0% !important;
+    margin-right: 10% !important;
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+    color: white !important;
+    text-shadow: 2px 2px 8px rgb(85, 72, 72);
+    font-size: 18px;
+    font-family: "AvenirNext-Regular" !important;
+    /* background-color: rgb(236, 234, 234); */
+    /* background: #f7f7f7; */
+
+}
+
+.container-fluid1>div {
+    width: 100%;
+    min-width: 100px;
+    max-width: 470px;
+    /* border: 1px solid grey !important; */
+    background: radial-gradient(#aad6e4, #2eb3d9);
+    box-shadow: 5px 10px 8px #888888;
+    padding: 1rem;
+    margin: 0rem;
+    font-family: "AvenirNext-Regular" !important;
+}
+
+.containerlogin {
+    margin: 0rem;
+    padding: 0rem;
+    margin-top: 10%;
+    /* -webkit-align-self: center; */
+    font-family: "AvenirNext-Regular" !important;
+}
+
+.containerlogin1 {
+    padding: 0rem;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 9%;
+    margin-bottom: 7%;
+    font-family: "AvenirNext-Regular" !important;
+
+}
+
+
+
+.text-centerlogin {
+    /* font-family: "AvenirNext-Regular" !important; */
+    margin-top: 40%;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+
+.text-center1 {
+    margin-top: 10%;
+    font-size: 40px;
+    text-shadow: 2px 2px 8px rgb(85, 72, 72);
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem;
+    margin-left: 18%;
+    margin-right: 18%;
+
+}
+
+.btn a,
+.btn a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.form-control {
+    background-color: #F0F0F0;
+    color: black !important;
+    font-size: 14px;
+    /* margin-bottom: 20px; */
+    border: none;
+    width: 100%;
+    padding: 10px;
+    height: 30px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.country {
+    padding: 20px !important;
+}
+
+
+
+button[type="submit"] {
+    padding: 10px 0px;
+    background-color: #177de3;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#id_country {
+    background-color: #F0F0F0;
+    color: black;
+    font-size: 16px;
+    /* margin-bottom: 20px; */
+    border: none;
+    width: 100%;
+    height: 40px !important;
+    padding: 10px;
+    border-radius: 0px !important;
+}

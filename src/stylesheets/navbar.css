@@ -1,0 +1,17 @@
+.navbar {
+    position: sticky;
+    box-shadow: 1px 1px 1px 1px #e3e8ee;
+
+}
+
+.usericons {
+    color: "white";
+}
+
+.username {
+    font-family: "AvenirNext-Regular" !important;
+}
+
+/* .dropdownmenu:hover {
+    background-color: #D3D3D3;
+} */

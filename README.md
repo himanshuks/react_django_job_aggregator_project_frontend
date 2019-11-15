@@ -1,0 +1,2 @@
+# react_django_job_aggregator_project_frontend
+Job Aggregator Website

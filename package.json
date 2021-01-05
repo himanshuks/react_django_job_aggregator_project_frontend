@@ -6,7 +6,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.24",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "aws-amplify": "^1.2.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "braintree-web-drop-in-react": "^1.1.0",
     "font-awesome": "^4.7.0",
